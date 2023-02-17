@@ -1,0 +1,273 @@
+body {
+    background-color: rgb(83, 113, 119);
+}
+
+/* Menu */
+
+.menu {
+    list-style-type: none;
+    position: relative;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    float: left;
+    padding: 8px;
+    padding-left: 80px;
+    font-size: 25px;
+    margin: 10px;
+    color:aliceblue;
+
+}
+
+.nav {
+    float: right;
+    padding: 10px;
+    padding-right: 90px;
+    padding-top: 20px;
+    display: inline;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: rgb(83, 113, 119);
+  }
+  
+  .active {
+    background-color: rgb(37, 186, 208);
+  }
+
+/* Menu */
+
+.Welcome {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 160px;
+    color: rgba(255,255,255,0.9);
+    letter-spacing: 2px;
+    margin-bottom: 450px;
+}
+
+/* services */
+
+.Services {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 160px;
+    padding-top: 15px;
+    background-color: rgb(5, 55, 64);
+    letter-spacing: 0.5px;
+}
+
+.Card {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    color: rgb(37, 186, 208);
+    margin-left: 20px;
+    padding: 120px;
+    justify-content: space-between;
+}
+
+.f_pc {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    background-color: #25BAD0;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+/* Services */
+
+/* About */
+.About {
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 150px;
+    letter-spacing: 0.5px;
+    background-color: rgb(37, 186, 208);
+}
+
+.flex-container-1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    color: rgb(37, 186, 208);
+    margin-left: 10px;
+    padding: 120px;
+    justify-content:left;
+    text-align: left;
+}
+
+.img {
+    float: left;
+    padding-left: 120px;
+    padding-top: 120px;
+}
+
+/* About */
+
+/* Portfolio  */
+
+.Portfolio {
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 150px;
+    letter-spacing: 0.5px;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.flex-container-3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.img {
+    size: 200px;
+    overflow: clip;
+    padding: 20px;
+}
+
+.f_pc1 {
+    width: 270px;
+    height: 270px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.f_pc2 {
+    width: 270px;
+    height: 270px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.p_top {
+    width: 19%;
+    display: inline-block;
+    transition: 1s;
+    margin: 0px 10px;
+    position: relative;
+}
+
+/* Portfolio */
+
+/* Team */
+
+.Team {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+    background-color: rgb(47, 222, 249);
+    letter-spacing: 0.5px;
+}
+
+
+.flex-container-4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    color: rgb(37, 186, 208);
+    margin-left: 15px;
+    padding: 300px;
+    padding-top: 130px;
+    justify-content: space-between;
+}
+
+.f_pc {
+    width: 150px;
+    height: 150px;
+    background-color: #daedf0;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Team */
+
+/* Touch */
+
+.Touch {
+    background-color: rgb(25, 78, 88);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-top: 90px;
+    letter-spacing: 0.5px;
+}
+
+.textbox {
+    margin: auto;
+    width: 80%;
+}
+
+.sm {
+    padding-top: 50px;
+    color: #daedf0;
+    padding-left: 20px;
+    margin: 20px;
+    border-spacing: 200px;
+}
+
+.fa {
+    padding: 20px;
+}
+
+.Copy {
+    text-align: center;
+}
+
+textarea#TextArea1 {
+    padding: 25px 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: rgba(255,255,255,0.2);
+    border: 0;
+    border-radius: 2px;
+    outline: none;
+    display: block;
+    width: 73%;
+    margin: 0px 0 0 14%;
+}
+
